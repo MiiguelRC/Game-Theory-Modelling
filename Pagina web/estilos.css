@@ -1,0 +1,116 @@
+header {
+	background-color: DarkRed;
+	color:white;
+	text-align:center;
+	padding:5px;
+}
+#titulo {
+	color: white;
+}
+h1,h2,h3,h4 {
+    color: DarkRed;
+}
+a img,
+img {
+	height: auto;
+	border: 0;
+}
+img {
+	width: 100%;
+}
+a img {
+	width: 70%;
+}
+nav {
+    margin-left: 10px;
+    width: 15%;
+    height: 100%;
+    overflow : auto;
+    position: fixed;
+    background-color: #B6B6B6;
+}
+video {
+	width: 100%;
+	height: auto;
+}
+#menu_title {
+    margin-left: 16px;
+    color: DarkRed;
+}
+nav ul {
+    padding: 0px;
+}
+nav li a{
+    display: block;
+    border: 1px solid black;
+    padding: 8px 0 8px 16px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    background-color: #607D8B;
+}
+nav li a:hover {
+    background-color: DarkRed;
+}
+#contenido {
+    margin-left: 18%;
+    padding-right: 10px;
+    height: 100%;
+}
+table {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+th {
+    color: white;
+    background-color: #607D8B;
+}
+section {
+    float: left;
+    width: 70%;
+    padding-bottom: 5px;
+}
+aside {
+    float: right;
+    margin-top: 10px;
+    width: 22%;
+    text-align:center;
+}
+.cita {
+	font-style: italic;
+}
+.autor {
+	font-style: normal;
+	font-weight: bold;
+        color: DarkRed;
+}
+a {
+    color: #607D8B;
+}
+ul {
+    list-style-type: none;
+}
+li:before {
+    content: "->";
+    color: DarkRed;
+}
+nav li:before {
+    content: "";
+}
+li {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: DarkRed;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
